@@ -80,7 +80,7 @@ function Clock() {
         }
         return prev - 1;
       });
-    }, 10);
+    }, 1000);
     
     return () => clearInterval(timer.current);
   }, [isPlaying, label]);
